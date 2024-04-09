@@ -1,0 +1,4 @@
+host - owu.linkpc.net
+login - osetrov
+parol - qwerty
+url - jdbc:mysql://owu.linkpc.net:3306/osetrov
