@@ -26,6 +26,7 @@ use osetrov;
 select * from cars where model = 'audi' and year > 2014;
 
 # знайти перші 5 машин
+select * from cars limit 5;
 select * from cars order by id limit 5;
 
 # знайти останні 5 машин
@@ -34,11 +35,14 @@ select * from cars order by id desc limit 5;
 # /////////////////////////////////////////////////////////
 
 # знайти середнє арифметичне цін машини KIA
-    select avg(price) as avgKia from cars where model = 'kia';
+    select avg(price), model from cars where model='kia';
+
+    select avg(price) as avgKia, model from cars where model = 'kia';
 
 # знайти середнє арифметичне цін для кожної марки машин окремо
-    select model, AVG(price) AS avgMiddleEveryModelCars
-        FROM cars GROUP BY model;
+    select avg(price), model from cars group by model;
+
+    select model, AVG(price) AS avgModelCars FROM cars GROUP BY model;
 
 # підрахувати кількість кожної марки
     select count(*) as count, model from cars group by model;
@@ -47,7 +51,15 @@ select * from cars order by id desc limit 5;
     SELECT COUNT(*) AS count, model FROM cars
     GROUP BY model HAVING COUNT(*) % 2 = 0;
 
+# знайти марку машини в назві яких друга та передостання буква "a"
+select * from cars where model like '_a%a_';
+
+# знайти всі машини назва моделі яких більше за 8 символів
+select * from cars where length(model)>8;
+
 # знайти марку машин кількість яких найбільше
+select count(*) as count, model from cars group by model order by count desc limit 1;
+
 select model, count(*) as count
 FROM cars GROUP BY model
 ORDER BY count DESC

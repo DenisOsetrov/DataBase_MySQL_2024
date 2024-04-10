@@ -7,14 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c2498e9-047d-4e53-b063-b1f20a09edff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson-1-MySQL/code_for_console_mySQL.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-1-MySQL/homework-1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-1-MySQL/login_parol.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-1-MySQL/task_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="9c2498e9-047d-4e53-b063-b1f20a09edff" name="Changes" comment="DataBases - hw-1 + lesson 1">
+      <change afterPath="$PROJECT_DIR$/lesson-1-MySQL/1-into.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-2-MySQL/homework-2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-2-MySQL/lesson-2-lection-cod.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-2-MySQL/task-2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson-1-MySQL/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-1-MySQL/homework-1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-1-MySQL/homework-1.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,32 +38,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Database Script.code_for_console_mySQL.sql.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Database Script.code_for_console_mySQL.sql.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;e3e8ab35-ce99-4ad5-be08-e726ebf3a9b4&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
-      &quot;MySQL&quot;
+    "RunConfigurationTargetLRU": [
+      "e3e8ab35-ce99-4ad5-be08-e726ebf3a9b4"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="code_for_console_mySQL.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/lesson-1-MySQL/code_for_console_mySQL.sql" />
@@ -84,11 +86,32 @@
       <workItem from="1712587515150" duration="12000" />
       <workItem from="1712587682388" duration="4010000" />
       <workItem from="1712603130340" duration="3600000" />
-      <workItem from="1712606750246" duration="10977000" />
+      <workItem from="1712606750246" duration="26544000" />
     </task>
+    <task id="LOCAL-00001" summary="DataBases - hw-1 + lesson 1">
+      <option name="closed" value="true" />
+      <created>1712685649430</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712685649430</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DataBases - hw-1 + lesson 1">
+      <option name="closed" value="true" />
+      <created>1712695667622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712695667622</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DataBases - hw-1 + lesson 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="DataBases - hw-1 + lesson 1" />
   </component>
 </project>
